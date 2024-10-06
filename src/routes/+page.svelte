@@ -37,7 +37,7 @@
 								<div class="col-xl-12">
 									<!-- form -->
 									<form action="#" class="search-box">
-										<div class="search-form mb-30" style="width: 20%;">
+										<div class="search-form mb-30 custom-responsive" style="width: 20%;">
 											<a href="/contact" tabindex="0">お問い合わせ</a>
 										</div>
 									</form>
@@ -167,4 +167,14 @@
 
 <Footer />
 <style>
+
+	.custom-responsive{
+		width: 30%;
+	}
+
+	@media (max-width: 768px) {
+		.custom-responsive{
+			width: 100%;
+		}
+	}
 </style>

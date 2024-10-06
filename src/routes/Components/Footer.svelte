@@ -1,8 +1,8 @@
 <script>
     import LOGO1 from "../../lib/images/logo1.png";
     import Fa from 'svelte-fa'
-    import { faX } from '@fortawesome/free-solid-svg-icons'
-    import { faGithub,faLinkedinIn,faFacebook } from '@fortawesome/free-brands-svg-icons';
+    import { faX,faHeart } from '@fortawesome/free-solid-svg-icons'
+    import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
     const year = new Date().getFullYear();
 
@@ -76,7 +76,7 @@
               <div class="footer-copy-right">
                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                   Copyright ©{year} All rights reserved 
-                  <i class="ti-heart" aria-hidden="true"></i> by <a href="/" target="_blank">LandKingInfo</a>
+                  <Fa icon={faHeart}/> by <a href="/" target="_blank">LandKingInfo</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
               </div>
            </div>
