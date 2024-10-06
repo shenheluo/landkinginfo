@@ -99,6 +99,7 @@
 									aria-hidden="true"
 									role="menu"
 									style="display: {mobileFlg?"block":"none"};"
+                                    data-sveltekit-reload
 								>
 									<li><a href="/" role="menuitem" tabindex="-1">ホーム</a></li>
 									<li><a href="/aboutus" role="menuitem" tabindex="-1">会社概要</a></li>

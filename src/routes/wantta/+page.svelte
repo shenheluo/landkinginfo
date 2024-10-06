@@ -14,7 +14,7 @@
         <div class="section-top-border">
             <h3 class="mb-30">案件紹介</h3>
             <iframe width="100%" height="800" title="wannta"
-                src="https://docs.google.com/spreadsheets/d/1tSYSAAVoILB-5zhiu3ej6kHgU160mQGc/edit?gid=263268222#gid=263268222&widget=true&amp;headers=false">
+                src="https://docs.google.com/spreadsheets/d/1F0LePv8enp6uArZU7jrFmo6Lt0mCm-Yx/edit?gid=1435695576#gid=1435695576&widget=true&amp;headers=false">
             </iframe>
 
         </div>
