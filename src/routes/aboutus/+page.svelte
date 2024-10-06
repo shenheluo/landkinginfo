@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import Header from '../Components/Header.svelte';
 	import HeaderSliderArea from '../Components/HeaderSliderArea.svelte';
 	import TextAreaComponent from "../Components/TextAreaComponent.svelte";
@@ -6,12 +6,8 @@
 
 	import ABOUT from "$lib/img/about.jpg";
 
-	interface IAboutUs {
-		title: string;
-		description: string;
-	}
 
-	const aboutUs: IAboutUs = 
+	const aboutUs = 
 		{
 			title: "事業内容",
 			description:
