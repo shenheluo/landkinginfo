@@ -3,7 +3,7 @@
 	import Footer from './Components/Footer.svelte';
     import Fa from 'svelte-fa'
     import { faBuilding,faUserShield,faUserGroup,faStar } from '@fortawesome/free-solid-svg-icons'
-	const innovation="デジタルの力で、ビジネスに新たな可能性を - 東京申和デジタル、あなたのイノベーションパートナー"
+	const innovation="ビジネスに新たな可能性を <br> 東京申和デジタル、あなたのイノベーションパートナー"
 
 </script>
 
@@ -133,7 +133,7 @@
 										<div class="testimonial-top-cap">
 											<img src="/testimonial.png" alt="" />
 											<p>
-												{innovation}
+												{@html innovation}
 											</p>
 										</div>
 									</div>
@@ -149,7 +149,7 @@
 										<div class="testimonial-top-cap">
 											<img src="/testimonial.png" alt="" />
 											<p>
-												{innovation}
+												{@html innovation}
 											</p>
 										</div>
 									</div>
@@ -172,9 +172,17 @@
 		width: 30%;
 	}
 
+	.testimonial-top-cap p{
+		text-align: center;
+	}
+
 	@media (max-width: 768px) {
 		.custom-responsive{
 			width: 100%;
+		}
+		.testimonial-top-cap p{
+			text-align: left;
+			color: aliceblue;
 		}
 	}
 </style>
