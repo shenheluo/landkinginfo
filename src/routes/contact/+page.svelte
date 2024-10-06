@@ -16,7 +16,7 @@
                 <h2 class="contact-title">お問い合わせ</h2>
             </div>
             <div class="col-lg-8">
-                <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" >
+                <!-- <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" >
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
@@ -42,7 +42,8 @@
                     <div class="form-group mt-3">
                         <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                     </div>
-                </form>
+                </form> -->
+                <iframe data-tally-src="https://tally.so/embed/3XMqej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="484" frameborder="0" marginheight="0" marginwidth="0" title="landkinginfo"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div class="media contact-info">

@@ -182,7 +182,6 @@
 		}
 		.testimonial-top-cap p{
 			text-align: left;
-			color: aliceblue;
 		}
 	}
 </style>
