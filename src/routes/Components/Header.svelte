@@ -1,12 +1,15 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import Fa from 'svelte-fa'
+    import { faX } from '@fortawesome/free-solid-svg-icons'
+    import { faGithub,faLinkedinIn,faFacebook } from '@fortawesome/free-brands-svg-icons';
+
     import  "../styles/bootstrap.min.css";
     import  "../styles/owl.carousel.min.css";
     import  "../styles/flaticon.css";
     import  "../styles/slicknav.css";
     import  "../styles/animate.min.css";
     import  "../styles/magnific-popup.css";
-    import  "../styles/fontawesome-all.min.css";
     import  "../styles/themify-icons.css";
     import  "../styles/slick.css";
     import  "../styles/nice-select.css";
@@ -39,10 +42,9 @@
                 <div class="col-lg-4">
                     <div class="header-info-right f-right">
                         <ul class="header-social">    
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                           <li> <a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><Fa icon={faX}/></a></li>
+                            <li><a href="#"><Fa icon={faLinkedinIn}/></a></li>
+                            <li><a href="#"><Fa icon={faFacebook}/></a></li>
                         </ul>
                     </div>
                 </div>

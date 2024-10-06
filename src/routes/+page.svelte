@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Header from './Components/Header.svelte';
 	import Footer from './Components/Footer.svelte';
-
+    import Fa from 'svelte-fa'
+    import { faBuilding,faUserShield,faUserGroup,faStar } from '@fortawesome/free-solid-svg-icons'
 	const innovation="デジタルの力で、ビジネスに新たな可能性を - 東京申和デジタル、あなたのイノベーションパートナー"
 
 </script>
@@ -56,17 +57,21 @@
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
 					<div class="single-services text-center mb-30">
 						<div class="services-ion">
-							<span class="flaticon-tour"></span>
+							<Fa icon={faBuilding}  class="bg-gold"
+							size="4x"
+							color="#014b85"/>
 						</div>
 						<div class="services-cap">
-							<h5>20+ 取引先<br />企業</h5>
+							<h5>20+ 取引先企業</h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
 					<div class="single-services text-center mb-30">
 						<div class="services-ion">
-							<span class="flaticon-pay"></span>
+							<Fa icon={faUserShield}  class="bg-gold"
+							size="4x"
+							color="#014b85"/>						
 						</div>
 						<div class="services-cap">
 							<h5>100% 信頼関係</h5>
@@ -76,17 +81,22 @@
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
 					<div class="single-services text-center mb-30">
 						<div class="services-ion">
-							<span class="flaticon-experience"></span>
+							<Fa icon={faUserGroup}  class="bg-gold"
+							size="4x"
+							color="#014b85"/>	
+
 						</div>
 						<div class="services-cap">
-							<h5>20+ 年以上の経験を持つ<br />IT技術者</h5>
+							<h5>経験ほ豊富な<br />技術者</h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
 					<div class="single-services text-center mb-30">
 						<div class="services-ion">
-							<span class="flaticon-good"></span>
+							<Fa icon={faStar}  class="bg-gold"
+							size="4x"
+							color="#014b85"/>
 						</div>
 						<div class="services-cap">
 							<h5>98% 高い評価<br />受ける</h5>

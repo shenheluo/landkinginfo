@@ -3,7 +3,8 @@
 	import Footer from '../Components/Footer.svelte';
 	import HeaderSliderArea from "../Components/HeaderSliderArea.svelte";
 	import CONTACTIMG from "$lib/img/contact-us.jpg";
-    
+    import Fa from 'svelte-fa'
+    import { faHome,faMobile,faEnvelope } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <Header />
@@ -45,7 +46,7 @@
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-home"></i></span>
+                    <span class="contact-info__icon"><Fa icon={faHome} size="2x" color="#8f9195"/></span>
                     <div class="media-body">
                         <h3>東京都中央区日本橋人形町1丁目2番12号BournMarkNingyochoビル3階
                         </h3>
@@ -53,14 +54,16 @@
                     </div>
                 </div>
                 <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                    <span class="contact-info__icon"><Fa icon={faMobile} size="2x" color="#8f9195"/></span>
                     <div class="media-body">
                         <h3>+81 03 3565 2365</h3>
                         <p>平日 09:00～ 18:00</p>
                     </div>
                 </div>
                 <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-email"></i></span>
+                    <span class="contact-info__icon">
+                        <Fa icon={faEnvelope} size="2x" color="#8f9195"/>
+                    </span>
                     <div class="media-body">
                         <h3>sales@LandKingInfo.com</h3>
                         <p>いつでもご連絡ください。</p>

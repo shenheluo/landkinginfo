@@ -1,5 +1,8 @@
 <script>
     import LOGO1 from "../../lib/images/logo1.png";
+    import Fa from 'svelte-fa'
+    import { faX } from '@fortawesome/free-solid-svg-icons'
+    import { faGithub,faLinkedinIn,faFacebook } from '@fortawesome/free-brands-svg-icons';
 
     const year = new Date().getFullYear();
 
@@ -80,10 +83,8 @@
             <div class="col-xl-5 col-lg-5 col-md-5">
                   <!-- social -->
                   <div class="footer-social f-right">
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-behance"></i></a>
-                      <a href="#"><i class="fas fa-globe"></i></a>
+                      <a href="#"><Fa icon={faX}/></a>
+                      <a href="#"><Fa icon={faFacebook}/></a>
                   </div>
            </div>
        </div>

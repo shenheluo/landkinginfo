@@ -6363,7 +6363,8 @@ form.search-box .search-form a {
     font-weight: 600;
     font-size: 18px;
     color: #001f38;
-    line-height: 1.4
+    line-height: 1.4;
+    padding-top: 20px;
 }
 
 .section-tittle h2 {
