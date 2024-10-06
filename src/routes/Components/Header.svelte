@@ -55,7 +55,7 @@
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
                         <div class="logo">
-                          <a href="index.html"><img src="{LOGO1}" style="width: 143px;" alt=""></a>
+                          <a href="/"><img src="{LOGO1}" style="width: 143px;" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
