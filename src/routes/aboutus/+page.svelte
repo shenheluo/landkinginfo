@@ -26,7 +26,7 @@
 		<div class="section-top-border" style="padding: 0 0;">
 			<div class="row">
 				<div class="col-md-6 mb-20 mt-20">
-					<h3 class="mb-1">ITソリューション事業（SES）</h3>
+					<h4 class="mb-1">ITソリューション事業（SES）</h4>
 					<hr />
 					<div class="">
 						<ul class="ordered-list">
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 mt-sm-30  mb-20 mt-20">
-					<h3 class="mb-1">ECサイトの企画・開発</h3>
+					<h4 class="mb-1">ECサイトの企画・開発</h4>
 					<hr />
 					<div class="">
 						<ul class="ordered-list">
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 mt-sm-30  mb-20 mt-20">
-					<h3 class="mb-1">AIソリューション</h3>
+					<h4 class="mb-1">AIソリューション</h4>
 					<hr />
 					<div class="">
 						<ul class="ordered-list">
