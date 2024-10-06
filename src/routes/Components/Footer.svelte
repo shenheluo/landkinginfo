@@ -16,7 +16,7 @@
                    <div class="single-footer-caption mb-30">
                         <!-- logo -->
                        <div class="footer-logo">
-                           <a href="index.html"><img src="{LOGO1}" alt="" style="width: 150px;"></a>
+                           <a href="/"><img src="{LOGO1}" alt="" style="width: 150px;"></a>
                        </div>
                        <div class="footer-tittle">
                            <div class="footer-pera">

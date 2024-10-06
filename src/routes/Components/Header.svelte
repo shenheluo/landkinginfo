@@ -75,21 +75,11 @@
                     <!-- Mobile Menu -->
                     <div class="col-12">
                         <div class="mobile_menu d-block d-lg-none"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">                                                                                                                                     
-                                    <li><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
-                                    <li><a href="about.html" role="menuitem" tabindex="-1">About US</a></li>
-                                    <li><a href="packages.html" role="menuitem" tabindex="-1">Package</a></li>
-                                    <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="blog.html" tabindex="-1">Blog</a>
-                                        <span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                                            <li><a href="blog.html" role="menuitem" tabindex="-1">Blog</a></li>
-                                            <li><a href="single-blog.html" role="menuitem" tabindex="-1">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#" tabindex="-1">Pages</a>
-                                        <span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                                            <li><a href="elements.html" role="menuitem" tabindex="-1">Element</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html" role="menuitem" tabindex="-1">Contact Us</a></li>
+                                    <li><a href="/" role="menuitem" tabindex="-1">ホーム</a></li>
+                                    <li><a href="/aboutus" role="menuitem" tabindex="-1">会社概要</a></li>
+                                    <li><a href="/bussiness" role="menuitem" tabindex="-1">事業紹介</a></li>
+                                    <li><a href="/wantta" role="menuitem" tabindex="-1">案件紹介</a></li>
+                                    <li><a href="/contact" role="menuitem" tabindex="-1">お問い合わせ</a></li>
                                 </ul></div></div>
                     </div>
                 </div>
