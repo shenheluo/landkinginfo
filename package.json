@@ -30,5 +30,11 @@
 		"vite": "^5.0.3",
 		"vitest": "^2.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"clsx": "^2.1.1",
+		"cobe": "^0.6.3",
+		"svelte-meta-tags": "^3.1.4",
+		"tailwind-merge": "^2.5.2"
+	}
 }
