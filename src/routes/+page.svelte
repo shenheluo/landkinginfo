@@ -43,6 +43,11 @@
 									</form>
 								</div>
 							</div>
+							<div class="row">
+								<div class="col-xl-12">
+									<h3 style="color: var(--warning);">40、50代技術者募集中</h3>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -87,7 +92,7 @@
 
 						</div>
 						<div class="services-cap">
-							<h5>経験ほ豊富な<br />技術者</h5>
+							<h5>経験豊富な<br />技術者</h5>
 						</div>
 					</div>
 				</div>
@@ -182,6 +187,7 @@
 		}
 		.testimonial-top-cap p{
 			text-align: left;
+			color: aliceblue;
 		}
 	}
 </style>
