@@ -5,6 +5,70 @@
 	import CONTACTIMG from "$lib/img/contact-us.jpg";
     import Fa from 'svelte-fa'
     import { faHome,faMobile,faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+	import { goto } from '$app/navigation';
+
+	let values = {
+		subject: '',
+		message: '',
+		name: '',
+		email: ''
+	};
+
+	function encode(data: Record<string, string>): string {
+		return Object.keys(data)
+			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+			.join("&");
+	}
+
+	// async function handleSubmit(event: { preventDefault: () => void; }) {
+	// 	event.preventDefault();
+		
+	// 	try {
+	// 		const response = await fetch("/api/contact", {
+	// 			method: 'POST',
+	// 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+	// 			body: encode(values),
+	// 		});
+
+	// 		if (!response.ok) {
+	// 			console.error(`${response.status} ${response.statusText}`);
+	// 			alert("エラーにより送信できませんでした。内容をご確認の上、時間をおいてから再度お試しください。");
+	// 		} else {
+	// 			goto("/thanks");
+	// 		}
+	// 	} catch (error) {
+	// 		alert(error);
+	// 	}
+	// }
+
+	let name = '';
+	let email = '';
+	let message = '';
+	let status = '';
+
+	async function handleSubmit() {
+		status = 'Sending...';
+		try {
+			const response = await fetch('/api/contact', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ name, email, message }),
+			});
+
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+
+			const result = await response.json();
+			status = 'Message sent successfully!';
+		} catch (error) {
+			console.error('Error sending message:', error);
+			status = 'Failed to send message. Please try again.';
+		}
+	}
 </script>
 
 <Header />
@@ -16,7 +80,7 @@
                 <h2 class="contact-title">お問い合わせ</h2>
             </div>
             <div class="col-lg-8">
-                <form class="form-contact contact_form" action="https://form.run/embed/@shen--AKD3FwmVxT7Bg1Vtvhqf?embed=direct" method="post" id="contactForm" >
+                <form class="form-contact contact_form" on:submit|preventDefault={handleSubmit} id="contactForm" >
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
@@ -44,9 +108,14 @@
                         <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                     </div>
                 </form>
+
+
+                <iframe src="https://www.y8h.com/contact/" loading="lazy" width="100%" height="484" frameborder="0" marginheight="0" marginwidth="0" title="landkinginfo"></iframe>
+
+
                 <!-- <iframe data-tally-src="https://tally.so/embed/3XMqej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="484" frameborder="0" marginheight="0" marginwidth="0" title="landkinginfo"></iframe>
-                <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
-             -->
+                <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script> -->
+            
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div class="media contact-info">
@@ -79,3 +148,14 @@
 </section>
 
 <Footer />
+
+<form on:submit|preventDefault={handleSubmit}>
+  <input bind:value={name} placeholder="Name" required>
+  <input bind:value={email} type="email" placeholder="Email" required>
+  <textarea bind:value={message} placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+{#if status}
+  <p>{status}</p>
+{/if}
