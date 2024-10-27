@@ -133,13 +133,13 @@
                         <p></p>
                     </div>
                 </div>
-                <!-- <div class="media contact-info">
+                <div class="media contact-info">
                     <span class="contact-info__icon"><Fa icon={faMobile} size="2x" color="#8f9195"/></span>
                     <div class="media-body">
-                        <h3>+81 03 3565 2365</h3>
+                        <h3>+81 90-6499-5999</h3>
                         <p>平日 09:00～ 18:00</p>
                     </div>
-                </div> -->
+                </div>
                 <div class="media contact-info">
                     <span class="contact-info__icon">
                         <Fa icon={faEnvelope} size="2x" color="#8f9195"/>

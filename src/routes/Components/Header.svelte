@@ -36,7 +36,7 @@
 						<div class="header-info-left">
 							<ul>
 								<li>eigyo@landkinginfo.com</li>
-								<li></li>
+								<li>+81 90-6499-5999</li>
 								<li>東京都中央区日本橋人形町1丁目2番12号</li>
 							</ul>
 						</div>
