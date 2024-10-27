@@ -8,7 +8,7 @@
 
 <Header />
 
-<HeaderSliderArea image={WANNTAIMG} title="案件紹介" />
+<!-- <HeaderSliderArea image={WANNTAIMG} title="案件紹介" /> -->
 <div class="whole-wrap">
     <div class="container_custom box_1170">
         <div class="section-top-border">
