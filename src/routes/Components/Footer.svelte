@@ -2,7 +2,7 @@
     import LOGO1 from "../../lib/images/logo1.png";
     import Fa from 'svelte-fa'
     import { faX,faHeart } from '@fortawesome/free-solid-svg-icons'
-    import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+    import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons';
 
     const year = new Date().getFullYear();
 
@@ -83,8 +83,9 @@
             <div class="col-xl-5 col-lg-5 col-md-5">
                   <!-- social -->
                   <div class="footer-social f-right">
-                      <a href="#"><Fa icon={faX}/></a>
-                      <a href="#"><Fa icon={faFacebook}/></a>
+                      <a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX}/></a>
+                      <a href="https://www.instagram.com/landkinginfo/" target="_blank"><Fa icon={faInstagram}/></a>
+                      <a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook}/></a>
                   </div>
            </div>
        </div>

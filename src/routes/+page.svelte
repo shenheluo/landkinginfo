@@ -45,7 +45,7 @@
 							</div>
 							<div class="row">
 								<div class="col-xl-12">
-									<h3 style="color: var(--warning);">40、50代技術者募集中</h3>
+									<h1 class="markdown" style="color: var(--warning);">40、50代技術者募集中</h1>
 								</div>
 							</div>
 						</div>
@@ -180,6 +180,10 @@
 	.testimonial-top-cap p{
 		text-align: center;
 	}
+	.markdown{
+		color: var(--warning);
+		font-size: 90px;
+	}
 
 	@media (max-width: 768px) {
 		.custom-responsive{
@@ -189,5 +193,9 @@
 			text-align: left;
 			color: aliceblue;
 		}
+		.markdown{
+			font-size: 45px;
+		}
+
 	}
 </style>

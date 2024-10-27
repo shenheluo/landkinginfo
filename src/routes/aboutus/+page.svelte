@@ -46,12 +46,12 @@
 					</div>
 				</div>
 				<div class="col-md-6 mt-sm-30  mb-20 mt-20">
-					<h3 class="mb-1">製造業向けERP・MESシステム開発</h3>
+					<h3 class="mb-1">顧客管理・営業支援</h3>
 					<hr />
 					<div class="">
 						<ul class="ordered-list">
 							<li>業務効率化を徹底的に追求したシステム設計</li>
-							<li>生産性向上に貢献する統合的な製造管理ソリューション</li>
+							<li>顧客や商談の情報を可視化できる</li>
 						</ul>
 					</div>
 				</div>
