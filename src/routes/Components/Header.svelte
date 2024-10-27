@@ -35,8 +35,8 @@
 					<div class="col-lg-8">
 						<div class="header-info-left">
 							<ul>
-								<li>sales@LandKingInfo.com</li>
-								<li>+81 03 3565 2365</li>
+								<li>eigyo@landkinginfo.com</li>
+								<li></li>
 								<li>東京都中央区日本橋人形町1丁目2番12号</li>
 							</ul>
 						</div>
@@ -44,9 +44,8 @@
 					<div class="col-lg-4">
 						<div class="header-info-right f-right">
 							<ul class="header-social">
-								<li><a href="#"><Fa icon={faX} /></a></li>
-								<li><a href="#"><Fa icon={faLinkedinIn} /></a></li>
-								<li><a href="#"><Fa icon={faFacebook} /></a></li>
+								<li><a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX} /></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} /></a></li>
 							</ul>
 						</div>
 					</div>

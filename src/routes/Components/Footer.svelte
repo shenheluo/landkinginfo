@@ -83,8 +83,8 @@
             <div class="col-xl-5 col-lg-5 col-md-5">
                   <!-- social -->
                   <div class="footer-social f-right">
-                      <a href="#"><Fa icon={faX}/></a>
-                      <a href="#"><Fa icon={faFacebook}/></a>
+                      <a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX}/></a>
+                      <a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook}/></a>
                   </div>
            </div>
        </div>
