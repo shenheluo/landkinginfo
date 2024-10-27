@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { faX } from '@fortawesome/free-solid-svg-icons';
-	import { faGithub, faLinkedinIn, faFacebook } from '@fortawesome/free-brands-svg-icons';
+	import { faGithub, faLinkedinIn, faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 	import '../styles/bootstrap.min.css';
 	import '../styles/owl.carousel.min.css';
@@ -45,6 +45,7 @@
 						<div class="header-info-right f-right">
 							<ul class="header-social">
 								<li><a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX} /></a></li>
+								<li><a href="https://www.instagram.com/landkinginfo/" target="_blank"><Fa icon={faInstagram} /></a></li>								
 								<li><a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} /></a></li>
 							</ul>
 						</div>
