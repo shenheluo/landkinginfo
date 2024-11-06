@@ -44,9 +44,9 @@
 					<div class="col-lg-4">
 						<div class="header-info-right f-right">
 							<ul class="header-social">
-								<li><a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX} /></a></li>
-								<li><a href="https://www.instagram.com/landkinginfo/" target="_blank"><Fa icon={faInstagram} /></a></li>								
-								<li><a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} /></a></li>
+								<li><a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX} size="2x" /></a></li>
+								<li><a href="https://www.instagram.com/landkinginfo/" target="_blank"><Fa icon={faInstagram} size="2x" /></a></li>								
+								<li><a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} size="2x" /></a></li>
 							</ul>
 						</div>
 					</div>
