@@ -83,9 +83,9 @@
             <div class="col-xl-5 col-lg-5 col-md-5">
                   <!-- social -->
                   <div class="footer-social f-right">
+                      <a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} size="1.5x" color="#FFF"/></a>
                       <a href="https://x.com/landkinginfo" target="_blank"><Fa icon={faX} size="1.5x" color="#FFF"/></a>
                       <a href="https://www.instagram.com/landkinginfo/" target="_blank"><Fa icon={faInstagram} size="1.5x" color="#FFF"/></a>
-                      <a href="https://www.facebook.com/profile.php?id=61566622418684" target="_blank"><Fa icon={faFacebook} size="1.5x" color="#FFF"/></a>
                   </div>
            </div>
        </div>
